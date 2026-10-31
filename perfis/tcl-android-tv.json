@@ -1,0 +1,31 @@
+{
+  "nome": "TCL Android TV (Android 11)",
+  "modelos": ["Smart_TV"],
+  "fabricantes": ["TCL"],
+  "launcherOriginal": "com.google.android.tvlauncher",
+  "desativar": [
+    { "pacote": "com.tcl.waterfall.overseas",           "descricao": "TCL Channel (recomendacoes e anuncios)" },
+    { "pacote": "com.tcl.esticker",                     "descricao": "Banners de anuncio sobre a tela" },
+    { "pacote": "com.tcl.guard",                        "descricao": "T-Guard (limpador em segundo plano)" },
+    { "pacote": "com.tcl.messagebox",                   "descricao": "Notificacoes/push da TCL" },
+    { "pacote": "com.tcl.partnercustomizer",            "descricao": "Bloco 'TCL Channel FREE' na aba Apps" },
+    { "pacote": "com.tcl.dashboard",                    "descricao": "Bloco 'TCL HOME' na aba Apps" },
+    { "pacote": "com.google.android.tvrecommendations", "descricao": "Recomendacoes na tela inicial" },
+    { "pacote": "com.google.android.feedback",          "descricao": "Envio de feedback ao Google" },
+    { "pacote": "com.google.android.play.games",        "descricao": "Google Play Games" },
+    { "pacote": "com.google.android.videos",            "descricao": "Google Play Filmes (descontinuado)" },
+    { "pacote": "com.google.android.marvin.talkback",   "descricao": "TalkBack (leitor de tela)" },
+    { "pacote": "com.google.android.tts",               "descricao": "Text-to-Speech" }
+  ],
+  "remover": [
+    { "pacote": "com.tcl.smartalexa",                   "descricao": "Integracao com Alexa (volta sozinha quando so desativada)" },
+    { "pacote": "com.tcl.usercenter",                   "descricao": "Conta TCL (volta sozinha quando so desativada)" }
+  ],
+  "opcionais": {
+    "streaming": [
+      { "pacote": "com.netflix.ninja",                  "descricao": "Netflix" },
+      { "pacote": "com.amazon.amazonvideo.livingroom",  "descricao": "Prime Video" },
+      { "pacote": "com.google.android.youtube.tvmusic", "descricao": "YouTube Music" }
+    ]
+  }
+}

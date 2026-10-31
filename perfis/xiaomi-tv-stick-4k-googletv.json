@@ -1,0 +1,32 @@
+{
+  "nome": "Xiaomi TV Stick 4K (Google TV) - Android 14",
+  "modelos": ["MiTV-AXTU0"],
+  "launcherOriginal": "com.google.android.apps.tv.launcherx",
+  "desativar": [
+    { "pacote": "com.miui.tv.analytics",                "descricao": "Telemetria da Xiaomi" },
+    { "pacote": "com.xiaomi.statistic",                 "descricao": "Estatisticas da Xiaomi" },
+    { "pacote": "com.xiaomi.mi_connect_service",        "descricao": "Mi Connect (integracao com celular Xiaomi)" },
+    { "pacote": "com.mitv.tvhome.mitvplus",             "descricao": "Mi TV+ (canais da Xiaomi)" },
+    { "pacote": "com.mitv.tvhome.michannel",            "descricao": "Canal de recomendacoes da Xiaomi" },
+    { "pacote": "com.mitv.tvhome.oemtab",               "descricao": "Aba da Xiaomi na tela inicial" },
+    { "pacote": "com.google.android.feedback",          "descricao": "Envio de feedback ao Google" },
+    { "pacote": "com.android.tv.feedbackconsent",       "descricao": "Consentimento de feedback" },
+    { "pacote": "com.google.android.play.games",        "descricao": "Google Play Games" },
+    { "pacote": "com.google.android.marvin.talkback",   "descricao": "TalkBack (leitor de tela)" },
+    { "pacote": "com.google.android.tts",               "descricao": "Text-to-Speech" },
+    { "pacote": "com.google.android.apps.tv.dreamx",    "descricao": "Protetor de tela 'ambiente' do Google TV" }
+  ],
+  "remover": [
+    { "pacote": "com.mitv.tvhome.atv",                  "descricao": "Xiaomi TV / PatchWall" },
+    { "pacote": "com.google.android.youtube.tvmusic",   "descricao": "YouTube Music" }
+  ],
+  "opcionais": {
+    "miracast": [
+      { "pacote": "com.xiaomi.mitv.smartshare",         "descricao": "Miracast (espelhar tela)" }
+    ],
+    "streaming": [
+      { "pacote": "com.netflix.ninja",                  "descricao": "Netflix" },
+      { "pacote": "com.amazon.amazonvideo.livingroom",  "descricao": "Prime Video" }
+    ]
+  }
+}

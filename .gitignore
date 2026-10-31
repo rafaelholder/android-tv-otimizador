@@ -1,0 +1,8 @@
+# Backups gerados pelos scripts: contem IP e modelo do aparelho de quem rodou
+backups/
+
+# Arquivos do sistema/editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
